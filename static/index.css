@@ -57,21 +57,20 @@ a:visited {
     justify-content: center;
 }
 
-.information .careers,
-.information .contact {
-    width: 15rem;
-    margin-left: 2rem;
+.information button {
+    background-color: #2F8F9D;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    transition: 0.3s;
+    font-family: "Montserrat", sans-serif;
 }
 
-.information .careers a,
-.information .contact a {
-    color: #2F8F9D;
-    transition: 0.2s;
-}
-
-.information .careers a:hover,
-.information .contact a:hover {
-    color: #89D1D2;
+.information button:hover {
+    box-shadow: 7px 6px 28px 1px rgba(47, 143, 157, 0.24);
+    transform: translateY(2px);
+    transition: 0.3s;
 }
 
 @media (max-width: 1025px) {
