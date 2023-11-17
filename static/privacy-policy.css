@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+
+body {
+    background-color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+
+.banner {
+    margin: 5rem 0rem 1rem 0rem;
+    width: 80%;
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    background: #212E40;
+    padding: 2rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.bannerleft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon {
+    width: 130px;
+    height: 130px;
+    flex-shrink: 0;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+}
+
+.heading {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.description {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 0.5rem;
+}
+
+.bannerRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.getBtn {
+    display: flex;
+    width: 190px;
+    height: 42px;
+    padding: 11.2px 22.4px;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    flex-shrink: 0;
+    border-radius: 2.8px;
+    cursor: pointer;
+    background: #FFF;
+    border: none;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.10), 0px 4px 4px 0px rgba(0, 0, 0, 0.09), 0px 9px 6px 0px rgba(0, 0, 0, 0.05), 0px 17px 7px 0px rgba(0, 0, 0, 0.01), 0px 26px 7px 0px rgba(0, 0, 0, 0.00);
+}
+
+.getIcon {
+    width: 21px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.btnDetail {
+    margin-top: 0.5rem;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.division {
+    width: 83%;
+    color: #FFF;
+    background: #FFF;
+}
+
+.information {
+    display: flex;
+    overflow: auto;
+    margin-left: 2rem;
+    width: 76%;
+    height: 70%;
+    flex-direction: column;
+}
+
+.topic {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 2rem;
+}
+
+.topic1 {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+.contactUs{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 4rem;
+}
+
+.content {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 1rem;
+}
+
+.sequence{
+    margin-bottom: 2rem;
+}
+.list{
+    margin: 0.5rem 0rem 2rem 0rem;
+}
+
+.bold{
+    font-weight: bold;
+    margin-left: 0.5rem;
+}
+
+.desp{
+    margin-left: 0.5rem;
+    display: flex;
+}
+
+.desp2{
+    margin-left: 0.5rem;
+}
+
+.mail {
+    color: #2F8F9D;
+    text-decoration: inherit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.mail:hover {
+    color: #89D1D2;
+}
+
+
+.footer{
+    margin: 4rem 0rem 15rem 0rem;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+
+.marker-animation {
+    padding: 0.5rem;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* width / */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+ /* Track */ 
+::-webkit-scrollbar-track {
+    background: #89D1D2;
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #2F8F9D;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #89D1D2;
+}
